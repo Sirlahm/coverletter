@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  position: relative;
+  font-family: 'Josefin Sans';
+  color: #444649;
+  font-weight: 300;
+  line-height: 1.6; }
+
+a, button {
+  cursor: pointer; }
+
+.margin-top-small {
+  margin-top: 3rem; }
+
+.border {
+  border-bottom: 1px solid #ccc; }
+
+.padding {
+  padding: 7rem 0; }
+
+.center {
+  text-align: center; }
+
+.flexbox {
+  display: flex;
+  justify-content: space-around; }
+
+.margin-top-big {
+  margin-top: 5rem; }
+
+.container {
+  width: 112rem;
+  max-width: 112rem;
+  margin: 0 auto;
+  color: #444;
+  background-color: white;
+  font-size: 2.3rem; }
+
+.resume__nav {
+  height: 5.5rem;
+  width: 100%;
+  background-color: #444; }
+
+.resume__header {
+  padding: 10rem 0 2rem 0;
+  text-align: center; }
+  .resume__header__details {
+    display: flex;
+    justify-content: space-evenly; }
+  .resume__header h1 {
+    font-size: 5rem;
+    letter-spacing: 1.25rem; }
+  .resume__header .paragraph-big {
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    font-weight: 400; }
+  .resume__header p {
+    margin-left: 1.5rem; }
+
+.resume__skills__details {
+  display: flex;
+  flex-wrap: wrap; }
+  .resume__skills__details div {
+    flex: 0 0 20%; }
+
+.resume__education__divs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .resume__education__divs div {
+    flex: 0 0 48%; }
+
+.resume__skill__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .resume__skill__flex p {
+    flex: 0 0 48%; }
+
+.paragraph-big {
+  font-size: 3rem;
+  letter-spacing: .3rem; }
+
+.paragraph-small {
+  font-weight: bold; }
+
+.bold {
+  font-weight: 400; }
+
+.div-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .div-flex img {
+    width: 4rem;
+    height: auto;
+    background-size: cover;
+    display: block; }
+  .div-flex p {
+    margin-left: 1rem; }
